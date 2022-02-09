@@ -1,5 +1,16 @@
-# Chronocraft VueJS 3.0 Library Template
-A VueJS 3.0 building template to create your own components library.
+---
+home: true 
+heroText: My Awesome Library Project
+heroImage: /img/dummy200.jpg
+tagline: Open source Vue 3 Library Template!
+actions: 
+    - text: Get Started
+      link: /getstarted
+      type: primary
+    - text: Library Components
+      link: /librarycomponents
+      type: primary
+---
 
 ### Features
 - Vuejs 3.0 Based Library Template
@@ -68,4 +79,9 @@ In order to build the final docs
 
 ```javascript
 npm run docs:build
+```
+
+Make sure you have the **vue-cli** installed globally or install it using
+```javascript
+npm install -g vue-cli
 ```

@@ -1,0 +1,17 @@
+.buttonscontainer button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 16pt;
+    box-shadow: rgb(0 0 0 / 24%) 0px 1px 4px;
+    border: 0px solid;
+    background: #eaeaea;
+}
+
+.buttonscontainer button:hover {
+    cursor: pointer;
+}
+
+.buttonscontainer button:active {
+    background: #f7f7f7;
+    box-shadow: rgb(0 0 0 / 24%) 0px 0px 2px;
+}
