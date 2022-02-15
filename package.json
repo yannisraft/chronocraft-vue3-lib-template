@@ -6,6 +6,7 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "unpkg": "dist/chronocraft-vue3-lib.min.js",
+  "types": "types/index.d.ts",
   "files": [
     "dist/*",
     "src"
@@ -18,6 +19,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "cross-env NODE_ENV=production rollup -c rollup.config.js",
+    "build:types": "tsc --build tsconfigtypes.json",
     "build:css": "cross-env NODE_ENV=production SEP_CSS=true rollup -c rollup.config.js",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
