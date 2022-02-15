@@ -9,7 +9,8 @@
   "types": "types/index.d.ts",
   "files": [
     "dist/*",
-    "src"
+    "src",
+    "types/*.d.ts"
   ],
   "sideEffects": [
     "*.css",
